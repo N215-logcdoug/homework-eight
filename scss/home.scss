@@ -1,0 +1,57 @@
+.home-body {
+    width: 100%;
+    height: 500px;
+    background-color: $site-black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 60px;
+
+    .home-body-text {
+        width: 40%;
+        h1 {
+            font-weight: normal;
+            font-family: LemonMilk;
+            font-size: 50px;
+            color: $site-white;
+        }
+        p {
+            font-family: Helvetica;
+            font-size: 20px;
+            color: $site-white;
+        }
+    }
+    
+
+    .home-body-image {
+        width: 50%;
+        height: 100%;
+        background-image: url(../images/liminal02.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    
+}
+.location-list {
+        width: 100%;
+        min-height: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+        margin-bottom: 60px;
+        .locations-title {
+            font-family: LemonMilk;
+            font-size: 50px;
+            color: $site-white;
+            margin-bottom: 20px;
+        }
+        iframe {
+            width: 800px;
+            height: 600px;
+        }
+        
+
+    }

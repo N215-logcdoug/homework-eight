@@ -1,0 +1,35 @@
+.builders {
+    width: 100%;
+    min-height: 400px;
+    margin-top: 60px;
+    .builder {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-bottom: 50px;
+        .builder-image {
+            width: 400px;
+            height: 400px;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 100%;
+        }
+        .builder-text {
+            width: 600px;
+
+            h2 {
+                font-weight: normal;
+                font-size: 50px;
+                color: $site-white;
+                font-family: LemonMilk;
+            }
+
+            p {
+                font-size: 20px;
+                color: $site-white;
+                font-family: Helvetica;
+            }
+        }
+    }
+}

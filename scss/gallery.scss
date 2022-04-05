@@ -1,0 +1,41 @@
+.gallery {
+    width: 100%;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    .gallery-row {
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 40px;
+        .gallery-item {
+            width: 30%;
+            height: 300px;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            .item-text {
+                font-family: LemonMilk;
+                color: $site-white;
+                opacity: 0;
+                font-size: 20px;
+                text-align: center;
+            }
+            
+        }
+        .gallery-item:hover {
+            background-color: rgba(0,0,0,0.5);
+            background-blend-mode: multiply;
+            .item-text {
+                opacity: 100%;
+            }
+        }
+    }
+}

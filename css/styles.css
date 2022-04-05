@@ -1,0 +1,295 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+body {
+  background-color: #000;
+}
+
+#wrapper {
+  min-height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+#app {
+  min-height: calc(100vh - 100px);
+  width: 90%;
+  background-color: #000;
+}
+
+@font-face {
+  font-family: LemonMilk;
+  src: url(../css/fonts/LEMONMILK-Regular.otf);
+}
+@font-face {
+  font-family: LemonMilkBold;
+  src: url(../css/fonts/LEMONMILK-Bold.otf);
+}
+@font-face {
+  font-family: LemonMilkLight;
+  src: url(../css/fonts/LEMONMILK-Light.otf);
+}
+@font-face {
+  font-family: Helvetica;
+  src: url(../css/fonts/Helvetica.ttf);
+}
+@font-face {
+  font-family: HelveticaBold;
+  src: url(../css/fonts/Helvetica-Bold.ttf);
+}
+nav {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #000;
+}
+nav a {
+  font-family: LemonMilk;
+  text-decoration: none;
+  color: #ddd;
+  font-size: 20px;
+}
+
+.hero {
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero .hero-title {
+  font-family: LemonMilk;
+  font-size: 80px;
+  color: #ddd;
+  text-align: center;
+}
+
+.home-body {
+  width: 100%;
+  height: 500px;
+  background-color: #000;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 60px;
+}
+.home-body .home-body-text {
+  width: 40%;
+}
+.home-body .home-body-text h1 {
+  font-weight: normal;
+  font-family: LemonMilk;
+  font-size: 50px;
+  color: #ddd;
+}
+.home-body .home-body-text p {
+  font-family: Helvetica;
+  font-size: 20px;
+  color: #ddd;
+}
+.home-body .home-body-image {
+  width: 50%;
+  height: 100%;
+  background-image: url(../images/liminal02.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.location-list {
+  width: 100%;
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+.location-list .locations-title {
+  font-family: LemonMilk;
+  font-size: 50px;
+  color: #ddd;
+  margin-bottom: 20px;
+}
+.location-list iframe {
+  width: 800px;
+  height: 600px;
+}
+
+.builders {
+  width: 100%;
+  min-height: 400px;
+  margin-top: 60px;
+}
+.builders .builder {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.builders .builder .builder-image {
+  width: 400px;
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 100%;
+}
+.builders .builder .builder-text {
+  width: 600px;
+}
+.builders .builder .builder-text h2 {
+  font-weight: normal;
+  font-size: 50px;
+  color: #ddd;
+  font-family: LemonMilk;
+}
+.builders .builder .builder-text p {
+  font-size: 20px;
+  color: #ddd;
+  font-family: Helvetica;
+}
+
+.modpack-download {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.modpack-download p {
+  font-family: LemonMilk;
+  font-size: 40px;
+  color: #ddd;
+  margin-right: 50px;
+}
+.modpack-download a {
+  text-decoration: none;
+}
+.modpack-download a .download-button {
+  width: 300px;
+  height: 100px;
+  background-color: #29f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+.modpack-download a .download-button .button-text {
+  font-size: 30px;
+  text-align: center;
+  margin: 0;
+}
+
+.mod-list {
+  width: 100%;
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+.mod-list h1 {
+  font-weight: normal;
+  font-size: 50px;
+  font-family: LemonMilk;
+  color: #ddd;
+  text-align: center;
+}
+.mod-list .mod {
+  width: 40%;
+  min-height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  background-color: #222;
+  padding: 40px;
+  border-radius: 30px;
+}
+.mod-list .mod .mod-icon {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.mod-list .mod .mod-name {
+  font-size: 30px;
+  font-family: LemonMilkLight;
+  color: #ddd;
+}
+
+.gallery {
+  width: 100%;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.gallery .gallery-row {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.gallery .gallery-row .gallery-item {
+  width: 30%;
+  height: 300px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gallery .gallery-row .gallery-item .item-text {
+  font-family: LemonMilk;
+  color: #ddd;
+  opacity: 0;
+  font-size: 20px;
+  text-align: center;
+}
+.gallery .gallery-row .gallery-item:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
+}
+.gallery .gallery-row .gallery-item:hover .item-text {
+  opacity: 100%;
+}
+
+footer {
+  height: 50px;
+  width: 100%;
+  background-color: #ddd;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: LemonMilk;
+}
+
+/*# sourceMappingURL=styles.css.map */

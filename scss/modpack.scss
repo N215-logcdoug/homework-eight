@@ -1,0 +1,76 @@
+.modpack-download {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    p {
+        font-family: LemonMilk;
+        font-size: 40px;
+        color: $site-white;
+        margin-right: 50px;
+    }
+
+    a {
+        text-decoration: none;
+        .download-button {
+        width: 300px;
+        height: 100px;
+        background-color: #29f;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 15px;
+
+            .button-text {
+                font-size: 30px;
+                text-align: center;
+                margin: 0;
+            }
+        }
+    }
+}
+
+.mod-list {
+    width: 100%;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+    
+    h1 {
+        font-weight: normal;
+        font-size: 50px;
+        font-family: LemonMilk;
+        color: $site-white;
+        text-align: center;
+    }
+
+    .mod {
+        width: 40%;
+        min-height: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 50px;
+        background-color: $site-gray;
+        padding: 40px;
+        border-radius: 30px;
+
+        .mod-icon {
+            width: 200px;
+            height: 200px;
+            border-radius: 100%;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .mod-name {
+            font-size: 30px;
+            font-family: LemonMilkLight;
+            color: $site-white;
+        }
+    }
+}

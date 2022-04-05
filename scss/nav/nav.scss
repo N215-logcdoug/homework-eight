@@ -1,0 +1,16 @@
+nav {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: $site-black;
+
+    a {
+        font-family: LemonMilk;
+        text-decoration: none;
+        color: $site-white;
+        font-size: 20px;
+    }
+    
+}
