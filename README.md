@@ -1,3 +1,3 @@
-# homework-six
-## https://in-info-web4.informatics.iupui.edu/~logcdoug/homework-six/tours.html
-The goal for this homework assignment was to create the tours page as well as all of the individual tour information pages from the travel-fly website layout. The tours page is accessible from the the navbar and each of the individual tour package pages are accessible from the tours page. All new pages are responsive down to a width of 800px.
+# homework-eight
+## https://in-info-web4.informatics.iupui.edu/~logcdoug/homework-eight/
+The goal for this homework assignment was to create a single page that can load in different sets of content utilizing jQuery. The page has a navbar with four links that change the main content of the page. Each set of content has its own unique layout and elements with professional styling.
